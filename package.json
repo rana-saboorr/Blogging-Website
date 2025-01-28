@@ -1,0 +1,20 @@
+{
+    "name": "blogging-website",
+    "version": "1.0.0",
+    "description": "A static blogging website with CI/CD workflows using GitHub Actions.",
+    "main": "index.js",
+    "scripts": {
+      "lint:html": "htmlhint 'src/**/*.html'",
+      "lint:css": "stylelint 'styles/**/*.css'",
+      "build": "parcel build src/index.html"
+    },
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+      "htmlhint": "^0.16.3",
+      "parcel": "^2.9.3",
+      "stylelint": "^15.10.0",
+      "stylelint-config-standard": "^34.0.0"
+    }
+  }
+  
